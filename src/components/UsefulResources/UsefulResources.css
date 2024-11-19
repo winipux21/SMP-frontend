@@ -1,0 +1,68 @@
+.useful-resources {
+    max-width: 1058px; /* Ширина совпадает с формой */
+    margin: 0 auto; /* Центрируем секцию */
+    background-color: #1F2A44;
+    padding: 0px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+  }
+  
+  .resources-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .resource-block {
+    flex: 1;
+    margin-left: 10px
+  }
+
+h2 {
+  padding-top: 20px;
+}
+h3 {
+    color: #A5C882; /* Цвет заголовков */
+  }
+  
+  a {
+    color: #A5C882; /* Цвет ссылки */
+    text-decoration: underline;
+  }
+
+
+
+  .profile-card {
+    position: relative;
+    width: 300px;
+    height: 100px;
+    background: linear-gradient(90deg, #a3d5e0, #d1e7ea); /* Градиент */
+    border-radius: 50px; /* Закругленные углы для прямоугольника */
+    clip-path: path(
+      "M0,50 Q50,0 150,50 T300,50 V100 H0 Z"
+    ); /* Обрисовка нужной формы */
+  }
+  
+  
+  .profile-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Для круга */
+    margin-left: 10px;
+    object-fit: cover; /* Адаптация изображения */
+  }
+  
+  .profile-name {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2a2a2a;
+  }
+  

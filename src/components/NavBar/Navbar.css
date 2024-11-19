@@ -1,0 +1,152 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #151D3C;
+  height: 50px; /* Устанавливаем фиксированную высоту */
+}
+
+.navbar-container {
+  max-width: 1058px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Центрируем все элементы по вертикали */
+  flex-wrap: nowrap; /* Убираем перенос элементов */
+}
+
+.navbar-logo a {
+  color: #A5C882;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center; /* Центрируем все элементы по вертикали */
+  gap: 50px; /* Уменьшаем расстояние между ссылками */
+}
+
+.navbar-links a {
+  color: #A5C882;
+  font-family: 'inter';
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.user-info {
+  display: flex;
+  align-items: center; /* Выравниваем номер телефона и кнопку "Выйти" по вертикали */
+  gap: 50px;
+  font-family: 'inter';
+  font-size: 20px;
+  color: #ecf0f1;
+  margin-left: 0px; /* Отступ слева для кнопки "Выйти" */
+}
+
+.logout-button {
+  background-color: #151D3C;
+  color : #A5C882;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'inter';
+  font-size: 20px;
+  height: auto; /* Уберите фиксированную высоту */
+  align-self: center; /* Выровняйте кнопку по центру */
+  margin-top: 0; /* Убираем лишний отступ сверху */
+}
+
+.logout-button:hover {
+  background-color: #A5C882;
+}
+
+.navbar-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  background-color: #151D3C;
+  color: #A5C882;
+  border: none;
+  cursor: pointer;
+  margin-top: 0; /* Убираем лишний отступ сверху */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  background-color: #1E152A;
+  padding: 0px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(240, 3, 3, 0.5);
+  z-index: 1;
+  width: 320px;
+}
+
+.navbar-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Для мобильных устройств */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links {
+    margin-top: 10px;
+  }
+
+  .user-info {
+    margin-top: 10px;
+    justify-content: flex-start;
+  }
+
+  /* .user-info {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Уменьшите значение, чтобы выровнять с другими ссылками */
+}
+
+
+.tel-button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.report-info-popup {
+  position: absolute;
+  top: 50px; /* регулируйте позицию, чтобы разместить окно ниже */
+  right: 0;
+  width: 300px; /* увеличенная ширина окна */
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(151, 29, 29, 0.8);
+  z-index: 1000;
+  color: #fff;
+}
+
+.report-item {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 10px;
+}
+
+.report-item:last-child {
+  border-bottom: none;
+}
+
+

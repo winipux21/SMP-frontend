@@ -1,0 +1,132 @@
+.help-section {
+  background-color: #151D3C;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 1058px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+  margin: 0;
+  padding: 20px;
+  padding: auto;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 1058px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.instruction-block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.instruction-text {
+  flex: 1;
+  text-align: left;
+  margin-left: 11px;
+}
+
+.instruction-text h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  color: #A5C882;
+  margin-bottom: 10px;
+}
+
+.instruction-text p {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+.instruction-image-container {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 350px;
+}
+
+.instruction-image {
+  width: 100%;
+  height: auto;
+}
+
+.help-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.help-block {
+  width: 45%;
+  text-align: center;
+}
+
+.help-block img {
+  width: 100%;
+  max-width: 529px;
+  margin-bottom: 15px;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  color: #A5C882;
+  display: block;
+  margin: 20px auto;
+}
+
+.details-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.details-block {
+  width: 48%; /* Половина ширины контейнера */
+  text-align: left;
+}
+
+.details-block.right {
+  margin-right: 10px; /* Отступ справа для городского блока */
+  padding-left: 50px;
+}
+
+.details-block.left {
+  margin-left: 10px; /* Отступ слева для лесного блока */
+  padding-left: 50px;
+}
+
+.details-heading {
+  color: #A5C882;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.details-subheading {
+  color: #A5C882;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.details-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.details-list li {
+  margin-bottom: 5px;
+}

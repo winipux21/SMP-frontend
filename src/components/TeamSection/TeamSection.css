@@ -1,0 +1,59 @@
+.team-section-container {
+    width: 1920px; /* Ширина блока */
+    height: 300px; /* Высота блока */
+    background-color: #1F2A44; /* Темный фон */
+    margin: 20px auto; /* Добавляем верхний и нижний отступ */
+    padding: 20px;
+    border-radius: 8px;
+    color: #FFFFFF;
+  }
+  
+  
+  .team-section {
+    text-align: center;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%; /* Центрируем элементы по вертикали */
+  }
+  
+  .team-member {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .team-member:hover {
+    transform: translateY(10px);
+  }
+  
+  .member-photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .member-info {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 0;
+    transition: bottom 0.3s;
+  }
+  
+  .team-member:hover .member-info {
+    bottom: 0;
+  }
+  

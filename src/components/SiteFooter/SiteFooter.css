@@ -1,0 +1,11 @@
+.site-footer {
+    width: 1920px; /* Ширина блока */
+    height: 400px; /* Высота блока */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #151D3C; /* Темный фон */
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
