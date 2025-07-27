@@ -20,6 +20,7 @@ We built a “Missing Persons Finder” platform in preparation for a hackathon,
   * styled-components for scoped, themeable styling
 * Fetching and error handling via Axios
 * Enforced code quality with ESLint and the official React plugins
+
 Together with my teammates’ Figma designs, this full‑stack implementation delivers a polished, end‑to‑end solution for quickly finding and sharing information about missing persons
 
 ## Below are the key screens of our application, demonstrating the main user scenarios
