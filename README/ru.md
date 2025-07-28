@@ -3,7 +3,7 @@
 ## Концепция проекта
 В рамках подготовки к хакатону мы создали одностраничный сайт “Поиск пропавших без вести”, ориентированный на поиск пропавших пожилых людей — группы особенно высокого риска. Нашей целью было сделать поиск, отчетность и оповещение в режиме реального времени максимально простыми и эффективными, чтобы члены семьи и волонтеры могли быстрее координировать свои действия в случае пропажи пожилого человека
 
-[english](https://github.com/winipux21/SMP-backend/blob/master/README.md) [русский](https://github.com/winipux21/SMP-frontend/blob/master/README/ru.md)
+[english](https://github.com/winipux21/SMP-frontend/blob/master/README.md) [русский](https://github.com/winipux21/SMP-frontend/blob/master/README/ru.md)
 ## Моя роль и вклад
 ### Разработка серверной части 
 * Разработал и внедрил RESTful API с использованием Node.js и Express
