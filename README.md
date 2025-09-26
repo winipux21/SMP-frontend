@@ -3,7 +3,7 @@
 ## Project concept
 We built a “Missing Persons Finder” platform in preparation for a hackathon, with a focus on locating missing seniors—a demographic at particularly high risk. Our goal was to make search, reporting and real‑time alerting as simple and effective as possible, so family members and volunteers can coordinate faster when an elderly person goes missing
 
-[english](https://github.com/idonix21/SMP-frontend/blob/master/README.md) [русский](https://github.com/idonix21/SMP-frontend/blob/master/README/ru.md)
+[english](https://github.com/winipux21/SMP-frontend/blob/master/README.md) [русский](https://github.com/winipux21/SMP-frontend/blob/master/README/ru.md)
 ## My role and contributions
 ### Backend development 
 * Designed and implemented a RESTful API using Node.js and Express
@@ -50,7 +50,7 @@ Technologies used: **Node.js**, **Vite.js** and **React 17**
 
 Create a folder for the project, for example "SMP"
 
-Next, use this command to ```git clone https://github.com/idonix21/SMP-backend``` the repository into the created folder
+Next, use this command to ```git clone https://github.com/winipux21/SMP-backend``` the repository into the created folder
 
 ## 2. Install Dependencies
 
